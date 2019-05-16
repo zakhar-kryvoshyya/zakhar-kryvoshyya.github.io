@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto';
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 30px 30px 0 30px;
+}
+
+.aside {
+	width: calc(50% - 15px);
+	min-height: 450px;
+	padding: 40px;
+	background: #E5E5E5;
+	margin-bottom: 30px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.aside:nth-child(odd) {
+	margin-right: 15px;
+}
+
+.aside:nth-child(even) {
+	margin-left: 15px;
+}
+
+/*ЛЕЙБИЛ NEW SOON*/
+.tag {
+	background: black;
+	padding: 5px 8px;
+	color: white;
+	font-size: 0.9rem;
+}
+
+.weight {
+	font-size: 0.9rem;
+}
+
+.w100 {
+	display: block;
+	width: 100%;
+}
+
+.fontname {
+	width: 80%;
+}
+
+.fontname a {
+	display: block;
+}
+
+@media only screen and (max-width: 736px) {
+
+	.aside {
+		display: flex;
+		width: 100%;
+		min-height: 210px;
+		padding: 15px;
+	}
+
+	.aside:nth-child(odd) {
+		margin-right: 0px;
+	}
+
+	.aside:nth-child(even) {
+		margin-left: 0px;
+	}
+}

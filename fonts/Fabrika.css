@@ -1,0 +1,11 @@
+/* Webfont: Fabrika */
+@font-face {
+	font-family: 'Fabrika';
+	src: url('Fabrika.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('Fabrika.ttf') format('truetype');
+	/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}

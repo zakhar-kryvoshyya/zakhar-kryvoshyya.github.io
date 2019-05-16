@@ -1,0 +1,197 @@
+#s3 {
+	background-color: white;
+}
+
+#s2,
+#s4,
+#s6 {
+	background-color: #eee;
+}
+
+section,
+header {
+	min-height: 100vh;
+}
+
+.profont {
+	max-width: 70vh;
+}
+
+.profont p {
+	line-height: 130%;
+}
+
+.section-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	/*	padding-top: 40px;*/
+	/*	margin: 40px;*/
+	padding: 40px;
+}
+
+.section-box {
+	padding: 80px 40px;
+}
+
+/*СЕКЦІЯ 1*/
+.typing {
+	width: 600px;
+	/*	height: 320px;*/
+	text-align: center;
+}
+
+.typing {
+	font-family: 'Fabrika';
+	font-size: 5em;
+	color: #111;
+	/*	padding: 5% 0 2% 0;*/
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.typing .cursor {
+	opacity: 1;
+	/*	font-weight: 100;*/
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	-ms-animation: blink 0.7s infinite;
+	-o-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*СЕКЦІЯ 4*/
+.a-alph {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
+/*СЕКЦІЯ 2*/
+.about-fabrika {
+	font-family: 'Fabrika';
+	font-size: 4rem;
+}
+
+.section-box p {
+	font-family: 'Fabrika';
+	font-size: 1.5rem;
+	margin-top: 2em;
+}
+
+.label-charset {
+	margin-bottom: 10px;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+/*!букви окремі*/
+.text-present {
+	font-family: 'Fabrika';
+	font-size: 9.2rem;
+	color: #111;
+	line-height: 97%;
+}
+
+.text-about {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 0.9rem;
+	line-height: normal;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	margin-top: 2rem;
+	/*	display: flex;*/
+	/*	margin: auto;*/
+}
+
+.myself {
+	display: flex;
+	max-height: 60vh;
+	margin: auto;
+}
+
+.ul-links {
+	list-style: none;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 20px;
+}
+
+.text-ab {
+	font-family: 'Roboto';
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 0.8rem;
+	line-height: normal;
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+}
+
+.text-ab:hover {
+	/*    color: #263CFF;*/
+	text-decoration: underline;
+}
+
+.links-box {
+	/*
+	display: flex;
+	align-items: flex-end;
+*/
+}
+
+.text-cont {
+	padding: 90px 40px;
+}
+
+.text-end {
+	font-family: 'Fabrika';
+	font-size: 3rem;
+	color: #111;
+	text-align: center;
+	padding: 70px;
+	/*	margin: 20px;*/
+	/*	display: flex;*/
+	/*	align-items: center;*/
+	/*	justify-content: center;*/
+}
+
+@media only screen and (max-width: 1024px) {
+	.text-end {
+		font-size: 1rem;
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.text-end {
+		font-size: 1rem;
+		padding: 48px;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.text-present {
+		font-size: 4.7rem;
+	}
+
+	.typing h2 {
+		font-size: 3rem;
+	}
+
+	.typing {
+		width: 380px;
+	}
+
+}

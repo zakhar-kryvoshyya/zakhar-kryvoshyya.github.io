@@ -1,0 +1,37 @@
+#gNav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.g-navbox {
+/*    background-color: white;*/
+    min-height: 50vh;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -25vh;
+	max-width: 50px;
+	z-index: 999;
+	margin-right: 10px;
+	list-style: none;
+}
+
+.g-navbox .nav-link {
+	display: block;
+	background-color: #222;
+	width: 15px;
+	height: 15px;
+}
+
+.g-navbox .nav-link.active {
+	background-color: blue;
+}
+
+.g-navbox li {
+	margin: 8px 0;	
+}
